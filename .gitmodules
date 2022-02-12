@@ -4,3 +4,6 @@
 [submodule "ext/gulrak-filesystem"]
 	path = ext/gulrak-filesystem
 	url = https://github.com/gulrak/filesystem
+[submodule "cmake/corrosion"]
+	path = cmake/corrosion
+	url = https://github.com/corrosion-rs/corrosion.git

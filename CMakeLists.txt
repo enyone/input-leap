@@ -353,4 +353,8 @@ endif()
 
 enable_testing()
 
+cmake_policy (SET CMP0079 NEW)
+
+add_subdirectory (cmake/corrosion)
+
 add_subdirectory (src)
